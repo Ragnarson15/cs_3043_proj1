@@ -1,5 +1,5 @@
-chart = d3.json("flare.json", function(error, treeData) {
-  const root = treeData//tree(d3.hierarchy(data)
+chart = {
+  const root = tree(d3.hierarchy(data)
       .sort((a, b) => (a.height - b.height) || a.data.name.localeCompare(b.data.name)));
 
   const svg = d3.select(DOM.svg(width, width))
@@ -59,3 +59,5 @@ chart = d3.json("flare.json", function(error, treeData) {
 
   return svg.node();
 });
+
+data = require("@observablehq/data")
