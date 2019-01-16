@@ -1,6 +1,6 @@
 chart = {
   const root = tree(d3.hierarchy(data)
-      .sort((a, b) => (a.height - b.height) || a.data.name.localeCompare(b.data.name)));
+      .sort((a, b) => (a.height - b.height) || a.data.name.localeCompare(b.data.name));
 
   const svg = d3.select(DOM.svg(width, width))
       .style("width", "100%")
