@@ -1,0 +1,22 @@
+,,,,,,,,,,,
+,Permissions,,,Calender,Camera,Contacts,Location,Microphone,SMS,Storage,Phone
+,Applications,Name,Category,,,,,,,,
+,1,Messenger,Communication,w,n,n,w,n,n,n,n
+,2,Google Maps,Travel & Local,e,w,w,n,w,w,w,e
+,3,Netflix,Entertainment,e,e,e,e,w,e,w,w
+,4,Chrome,Communication,e,w,w,n,w,e,w,e
+,5,Piano Tuner,Music & Audio,e,e,e,w,n,e,e,e
+,6,Amazon,Shopping,e,w,w,w,w,e,w,w
+,7,Grub Hub,Food & Drink,e,w,e,w,e,e,w,w
+,8,Intstagram,Social,e,w,w,w,w,w,w,w
+,9,Snapchat,Social,e,n,w,w,n,w,n,w
+,10,Waze,Maps & Navigation,w,w,w,n,w,e,w,w
+,11,Pay Pal,Finance,e,w,w,w,e,w,w,w
+,12,Starbucks,Food & Drink,e,e,w,w,e,e,w,e
+,13,Techchrunch,News & Magazines,e,e,e,e,e,e,w,e
+,14,Venmo,Finance,e,w,w,e,e,e,w,w
+,15,Yelp,Travel & Local,e,w,w,w,w,e,w,e
+,,,,,,,,,,,
+,,Needed,,,,,,,,,
+,,Requested Not Required,,,,,,,,,
+,,Not Requested,,,,,,,,,
