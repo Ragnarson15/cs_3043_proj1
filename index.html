@@ -1,53 +1,24 @@
 <!DOCTYPE html>
+<html>
+
 <head>
-<meta charset="utf-8">
-<style type="text/css">
-
-	.node {
-    cursor: pointer;
-  }
-
-  .overlay{
-      background-color:#EEE;
-  }
-
-  .node circle {
-    fill: #fff;
-    stroke: steelblue;
-    stroke-width: 1.5px;
-  }
-
-  .node text {
-    font-size:10px;
-    font-family:sans-serif;
-  }
-
-  .link {
-    fill: none;
-    stroke: #ccc;
-    stroke-width: 1.5px;
-  }
-
-  .templink {
-    fill: none;
-    stroke: red;
-    stroke-width: 3px;
-  }
-
-  .ghostCircle.show{
-      display:block;
-  }
-
-  .ghostCircle, .activeDrag .ghostCircle{
-       display: none;
-  }
-
-</style>
-<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-<script src="https://d3js.org/d3.v3.min.js"></script>
-<script src="tree.js"></script>
+    <!-- Import Vega 4 & Vega-Lite 3 (does not have to be from CDN) -->
+    <script src="https://cdn.jsdelivr.net/npm/vega@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@3.0.0-rc8"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@3"></script>
 </head>
+
 <body>
-    <div id="tree-container"></div>
+
+    <div id="vis5"></div>
+
+    <script type="text/javascript">
+        var spec5 = 'https://raw.githubusercontent.com/Ragnarson15/cs_3043_proj1/master/data.json';
+
+        vegaEmbed('#vis5', spec5).then(function (result) {
+            // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
+    </script>
 </body>
+
 </html>

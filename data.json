@@ -1,501 +1,335 @@
 [
     {
-        "name": "Permissions", 
-        "children": [
-            {
-                "name": "Needed Permissions", 
-                "children": [
-                    {
-                        "name": "Calender", 
-                        "children": []
-                    }, 
-                    {
-                        "name": "Camera", 
-                        "children": [
-                            {
-                                "name": "Messenger"
-                            }, 
-                            {
-                                "name": "Snapchat"
-                            }
-                        ]
-                    }, 
-                    {
-                        "name": "Contacts", 
-                        "children": [
-                            {
-                                "name": "Messenger"
-                            }
-                        ]
-                    }, 
-                    {
-                        "name": "Location", 
-                        "children": [
-                            {
-                                "name": "Google Maps"
-                            }, 
-                            {
-                                "name": "Chrome"
-                            }, 
-                            {
-                                "name": "Waze"
-                            }
-                        ]
-                    }, 
-                    {
-                        "name": "Microphone", 
-                        "children": [
-                            {
-                                "name": "Messenger"
-                            }, 
-                            {
-                                "name": "Piano Tuner"
-                            }, 
-                            {
-                                "name": "Snapchat"
-                            }
-                        ]
-                    }, 
-                    {
-                        "name": "SMS", 
-                        "children": [
-                            {
-                                "name": "Messenger"
-                            }
-                        ]
-                    }, 
-                    {
-                        "name": "Storage", 
-                        "children": [
-                            {
-                                "name": "Messenger"
-                            }, 
-                            {
-                                "name": "Snapchat"
-                            }
-                        ]
-                    }, 
-                    {
-                        "name": "Phone", 
-                        "children": [
-                            {
-                                "name": "Messenger"
-                            }
-                        ]
-                    }
-                ]
-            }, 
-            {
-                "name": "Wanted Permissions", 
-                "children": [
-                    {
-                        "name": "Calender", 
-                        "children": [
-                            {
-                                "name": "Messenger"
-                            }, 
-                            {
-                                "name": "Waze"
-                            }
-                        ]
-                    }, 
-                    {
-                        "name": "Camera", 
-                        "children": [
-                            {
-                                "name": "Google Maps"
-                            }, 
-                            {
-                                "name": "Chrome"
-                            }, 
-                            {
-                                "name": "Amazon"
-                            }, 
-                            {
-                                "name": "Grub Hub"
-                            }, 
-                            {
-                                "name": "Intstagram"
-                            }, 
-                            {
-                                "name": "Waze"
-                            }, 
-                            {
-                                "name": "Pay Pal"
-                            }, 
-                            {
-                                "name": "Venmo"
-                            }, 
-                            {
-                                "name": "Yelp"
-                            }
-                        ]
-                    }, 
-                    {
-                        "name": "Contacts", 
-                        "children": [
-                            {
-                                "name": "Google Maps"
-                            }, 
-                            {
-                                "name": "Chrome"
-                            }, 
-                            {
-                                "name": "Amazon"
-                            }, 
-                            {
-                                "name": "Intstagram"
-                            }, 
-                            {
-                                "name": "Snapchat"
-                            }, 
-                            {
-                                "name": "Waze"
-                            }, 
-                            {
-                                "name": "Pay Pal"
-                            }, 
-                            {
-                                "name": "Starbucks"
-                            }, 
-                            {
-                                "name": "Venmo"
-                            }, 
-                            {
-                                "name": "Yelp"
-                            }
-                        ]
-                    }, 
-                    {
-                        "name": "Location", 
-                        "children": [
-                            {
-                                "name": "Messenger"
-                            }, 
-                            {
-                                "name": "Piano Tuner"
-                            }, 
-                            {
-                                "name": "Amazon"
-                            }, 
-                            {
-                                "name": "Grub Hub"
-                            }, 
-                            {
-                                "name": "Intstagram"
-                            }, 
-                            {
-                                "name": "Snapchat"
-                            }, 
-                            {
-                                "name": "Pay Pal"
-                            }, 
-                            {
-                                "name": "Starbucks"
-                            }, 
-                            {
-                                "name": "Yelp"
-                            }
-                        ]
-                    }, 
-                    {
-                        "name": "Microphone", 
-                        "children": [
-                            {
-                                "name": "Google Maps"
-                            }, 
-                            {
-                                "name": "Netflix"
-                            }, 
-                            {
-                                "name": "Chrome"
-                            }, 
-                            {
-                                "name": "Amazon"
-                            }, 
-                            {
-                                "name": "Intstagram"
-                            }, 
-                            {
-                                "name": "Waze"
-                            }, 
-                            {
-                                "name": "Yelp"
-                            }
-                        ]
-                    }, 
-                    {
-                        "name": "SMS", 
-                        "children": [
-                            {
-                                "name": "Google Maps"
-                            }, 
-                            {
-                                "name": "Intstagram"
-                            }, 
-                            {
-                                "name": "Snapchat"
-                            }, 
-                            {
-                                "name": "Pay Pal"
-                            }
-                        ]
-                    }, 
-                    {
-                        "name": "Storage", 
-                        "children": [
-                            {
-                                "name": "Google Maps"
-                            }, 
-                            {
-                                "name": "Netflix"
-                            }, 
-                            {
-                                "name": "Chrome"
-                            }, 
-                            {
-                                "name": "Amazon"
-                            }, 
-                            {
-                                "name": "Grub Hub"
-                            }, 
-                            {
-                                "name": "Intstagram"
-                            }, 
-                            {
-                                "name": "Waze"
-                            }, 
-                            {
-                                "name": "Pay Pal"
-                            }, 
-                            {
-                                "name": "Starbucks"
-                            }, 
-                            {
-                                "name": "Techchrunch"
-                            }, 
-                            {
-                                "name": "Venmo"
-                            }, 
-                            {
-                                "name": "Yelp"
-                            }
-                        ]
-                    }, 
-                    {
-                        "name": "Phone", 
-                        "children": [
-                            {
-                                "name": "Netflix"
-                            }, 
-                            {
-                                "name": "Amazon"
-                            }, 
-                            {
-                                "name": "Grub Hub"
-                            }, 
-                            {
-                                "name": "Intstagram"
-                            }, 
-                            {
-                                "name": "Snapchat"
-                            }, 
-                            {
-                                "name": "Waze"
-                            }, 
-                            {
-                                "name": "Pay Pal"
-                            }, 
-                            {
-                                "name": "Venmo"
-                            }
-                        ]
-                    }
-                ]
-            }, 
-            {
-                "name": "Permissions Not Required", 
-                "children": [
-                    {
-                        "name": "Calender", 
-                        "children": [
-                            {
-                                "name": "Google Maps"
-                            }, 
-                            {
-                                "name": "Netflix"
-                            }, 
-                            {
-                                "name": "Chrome"
-                            }, 
-                            {
-                                "name": "Piano Tuner"
-                            }, 
-                            {
-                                "name": "Amazon"
-                            }, 
-                            {
-                                "name": "Grub Hub"
-                            }, 
-                            {
-                                "name": "Intstagram"
-                            }, 
-                            {
-                                "name": "Snapchat"
-                            }, 
-                            {
-                                "name": "Pay Pal"
-                            }, 
-                            {
-                                "name": "Starbucks"
-                            }, 
-                            {
-                                "name": "Techchrunch"
-                            }, 
-                            {
-                                "name": "Venmo"
-                            }, 
-                            {
-                                "name": "Yelp"
-                            }
-                        ]
-                    }, 
-                    {
-                        "name": "Camera", 
-                        "children": [
-                            {
-                                "name": "Netflix"
-                            }, 
-                            {
-                                "name": "Piano Tuner"
-                            }, 
-                            {
-                                "name": "Starbucks"
-                            }, 
-                            {
-                                "name": "Techchrunch"
-                            }
-                        ]
-                    }, 
-                    {
-                        "name": "Contacts", 
-                        "children": [
-                            {
-                                "name": "Netflix"
-                            }, 
-                            {
-                                "name": "Piano Tuner"
-                            }, 
-                            {
-                                "name": "Grub Hub"
-                            }, 
-                            {
-                                "name": "Techchrunch"
-                            }
-                        ]
-                    }, 
-                    {
-                        "name": "Location", 
-                        "children": [
-                            {
-                                "name": "Netflix"
-                            }, 
-                            {
-                                "name": "Techchrunch"
-                            }, 
-                            {
-                                "name": "Venmo"
-                            }
-                        ]
-                    }, 
-                    {
-                        "name": "Microphone", 
-                        "children": [
-                            {
-                                "name": "Grub Hub"
-                            }, 
-                            {
-                                "name": "Pay Pal"
-                            }, 
-                            {
-                                "name": "Starbucks"
-                            }, 
-                            {
-                                "name": "Techchrunch"
-                            }, 
-                            {
-                                "name": "Venmo"
-                            }
-                        ]
-                    }, 
-                    {
-                        "name": "SMS", 
-                        "children": [
-                            {
-                                "name": "Netflix"
-                            }, 
-                            {
-                                "name": "Chrome"
-                            }, 
-                            {
-                                "name": "Piano Tuner"
-                            }, 
-                            {
-                                "name": "Amazon"
-                            }, 
-                            {
-                                "name": "Grub Hub"
-                            }, 
-                            {
-                                "name": "Waze"
-                            }, 
-                            {
-                                "name": "Starbucks"
-                            }, 
-                            {
-                                "name": "Techchrunch"
-                            }, 
-                            {
-                                "name": "Venmo"
-                            }, 
-                            {
-                                "name": "Yelp"
-                            }
-                        ]
-                    }, 
-                    {
-                        "name": "Storage", 
-                        "children": [
-                            {
-                                "name": "Piano Tuner"
-                            }
-                        ]
-                    }, 
-                    {
-                        "name": "Phone", 
-                        "children": [
-                            {
-                                "name": "Google Maps"
-                            }, 
-                            {
-                                "name": "Chrome"
-                            }, 
-                            {
-                                "name": "Piano Tuner"
-                            }, 
-                            {
-                                "name": "Starbucks"
-                            }, 
-                            {
-                                "name": "Techchrunch"
-                            }, 
-                            {
-                                "name": "Yelp"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "id": 1, 
+        "name": "Permissions"
+    }, 
+    {
+        "id": 4, 
+        "parent": 1, 
+        "name": "Needed Permissions"
+    }, 
+    {
+        "id": 3, 
+        "parent": 1, 
+        "name": "Wanted Permissions"
+    }, 
+    {
+        "name": "Permissions Not Required", 
+        "parent": 1
+    }, 
+    {
+        "id": 5, 
+        "parent": 2, 
+        "name": "Calender"
+    }, 
+    {
+        "id": 6, 
+        "parent": 2, 
+        "name": "Camera"
+    }, 
+    {
+        "id": 7, 
+        "parent": 2, 
+        "name": "Contacts"
+    }, 
+    {
+        "id": 8, 
+        "parent": 2, 
+        "name": "Location"
+    }, 
+    {
+        "id": 9, 
+        "parent": 2, 
+        "name": "Microphone"
+    }, 
+    {
+        "id": 10, 
+        "parent": 2, 
+        "name": "SMS"
+    }, 
+    {
+        "id": 11, 
+        "parent": 2, 
+        "name": "Storage"
+    }, 
+    {
+        "id": 12, 
+        "parent": 2, 
+        "name": "Phone"
+    }, 
+    {
+        "id": 13, 
+        "parent": 3, 
+        "name": "Calender"
+    }, 
+    {
+        "id": 14, 
+        "parent": 3, 
+        "name": "Camera"
+    }, 
+    {
+        "id": 15, 
+        "parent": 3, 
+        "name": "Contacts"
+    }, 
+    {
+        "id": 16, 
+        "parent": 3, 
+        "name": "Location"
+    }, 
+    {
+        "id": 17, 
+        "parent": 3, 
+        "name": "Microphone"
+    }, 
+    {
+        "id": 18, 
+        "parent": 3, 
+        "name": "SMS"
+    }, 
+    {
+        "id": 19, 
+        "parent": 3, 
+        "name": "Storage"
+    }, 
+    {
+        "id": 20, 
+        "parent": 3, 
+        "name": "Phone"
+    }, 
+    {
+        "id": 21, 
+        "parent": 4, 
+        "name": "Calender"
+    }, 
+    {
+        "id": 22, 
+        "parent": 4, 
+        "name": "Camera"
+    }, 
+    {
+        "id": 23, 
+        "parent": 4, 
+        "name": "Contacts"
+    }, 
+    {
+        "id": 24, 
+        "parent": 4, 
+        "name": "Location"
+    }, 
+    {
+        "id": 25, 
+        "parent": 4, 
+        "name": "Microphone"
+    }, 
+    {
+        "id": 26, 
+        "parent": 4, 
+        "name": "SMS"
+    }, 
+    {
+        "id": 27, 
+        "parent": 4, 
+        "name": "Storage"
+    }, 
+    {
+        "id": 28, 
+        "parent": 4, 
+        "name": "Phone"
+    }, 
+    {
+        "parnet": 6, 
+        "id": 29, 
+        "name": "Messenger"
+    }, 
+    {
+        "parnet": 6, 
+        "id": 30, 
+        "name": "Snapchat"
+    }, 
+    {
+        "parnet": 7, 
+        "id": 31, 
+        "name": "Messenger"
+    }, 
+    {
+        "parnet": 8, 
+        "id": 32, 
+        "name": "Google Maps"
+    }, 
+    {
+        "parnet": 8, 
+        "id": 33, 
+        "name": "Chrome"
+    }, 
+    {
+        "parnet": 8, 
+        "id": 34, 
+        "name": "Waze"
+    }, 
+    {
+        "parnet": 9, 
+        "id": 35, 
+        "name": "Messenger"
+    }, 
+    {
+        "parnet": 9, 
+        "id": 36, 
+        "name": "Piano Tuner"
+    }, 
+    {
+        "parnet": 9, 
+        "id": 37, 
+        "name": "Snapchat"
+    }, 
+    {
+        "parnet": 10, 
+        "id": 38, 
+        "name": "Messenger"
+    }, 
+    {
+        "parnet": 11, 
+        "id": 39, 
+        "name": "Messenger"
+    }, 
+    {
+        "parnet": 11, 
+        "id": 40, 
+        "name": "Snapchat"
+    }, 
+    {
+        "parnet": 12, 
+        "id": 41, 
+        "name": "Messenger"
+    }, 
+    {
+        "parnet": 14, 
+        "id": 44, 
+        "name": "Messenger"
+    }, 
+    {
+        "parnet": 14, 
+        "id": 45, 
+        "name": "Snapchat"
+    }, 
+    {
+        "parnet": 15, 
+        "id": 47, 
+        "name": "Messenger"
+    }, 
+    {
+        "parnet": 16, 
+        "id": 49, 
+        "name": "Google Maps"
+    }, 
+    {
+        "parnet": 16, 
+        "id": 50, 
+        "name": "Chrome"
+    }, 
+    {
+        "parnet": 16, 
+        "id": 51, 
+        "name": "Waze"
+    }, 
+    {
+        "parnet": 17, 
+        "id": 53, 
+        "name": "Messenger"
+    }, 
+    {
+        "parnet": 17, 
+        "id": 54, 
+        "name": "Piano Tuner"
+    }, 
+    {
+        "parnet": 17, 
+        "id": 55, 
+        "name": "Snapchat"
+    }, 
+    {
+        "parnet": 18, 
+        "id": 57, 
+        "name": "Messenger"
+    }, 
+    {
+        "parnet": 19, 
+        "id": 59, 
+        "name": "Messenger"
+    }, 
+    {
+        "parnet": 19, 
+        "id": 60, 
+        "name": "Snapchat"
+    }, 
+    {
+        "parnet": 20, 
+        "id": 62, 
+        "name": "Messenger"
+    }, 
+    {
+        "parnet": 22, 
+        "id": 65, 
+        "name": "Messenger"
+    }, 
+    {
+        "parnet": 22, 
+        "id": 66, 
+        "name": "Snapchat"
+    }, 
+    {
+        "parnet": 23, 
+        "id": 68, 
+        "name": "Messenger"
+    }, 
+    {
+        "parnet": 24, 
+        "id": 70, 
+        "name": "Google Maps"
+    }, 
+    {
+        "parnet": 24, 
+        "id": 71, 
+        "name": "Chrome"
+    }, 
+    {
+        "parnet": 24, 
+        "id": 72, 
+        "name": "Waze"
+    }, 
+    {
+        "parnet": 25, 
+        "id": 74, 
+        "name": "Messenger"
+    }, 
+    {
+        "parnet": 25, 
+        "id": 75, 
+        "name": "Piano Tuner"
+    }, 
+    {
+        "parnet": 25, 
+        "id": 76, 
+        "name": "Snapchat"
+    }, 
+    {
+        "parnet": 26, 
+        "id": 78, 
+        "name": "Messenger"
+    }, 
+    {
+        "parnet": 27, 
+        "id": 80, 
+        "name": "Messenger"
+    }, 
+    {
+        "parnet": 27, 
+        "id": 81, 
+        "name": "Snapchat"
+    }, 
+    {
+        "parnet": 28, 
+        "id": 83, 
+        "name": "Messenger"
     }
 ]

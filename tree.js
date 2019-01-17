@@ -1,6 +1,6 @@
 chart = {
-  const root = tree(d3.hierarchy(data))
-      .sort((a, b) => (a.height - b.height) || a.data.name.localeCompare(b.data.name));
+  const root = tree(d3.hierarchy(data)
+      .sort((a, b) => (a.height - b.height) || a.data.name.localeCompare(b.data.name)));
 
   const svg = d3.select(DOM.svg(width, width))
       .style("width", "100%")
@@ -58,6 +58,6 @@ chart = {
       .attr("viewBox", `${box.x} ${box.y} ${box.width} ${box.height}`);
 
   return svg.node();
-});
+}
 
 data = require("@observablehq/data")
