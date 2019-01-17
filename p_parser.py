@@ -408,7 +408,7 @@ def get_cal_want_children(node_id, parent_id):
         for row in csv_reader:
 
             temp_child = {}
-            if (row[4] == 'n'):
+            if (row[4] == 'w'):
                 node_id += 1
                 temp_child['id'] = node_id
                 temp_child['name'] = row[2]
@@ -425,7 +425,7 @@ def get_cam_want_children(node_id, parent_id):
         for row in csv_reader:
 
             temp_child = {}
-            if (row[5] == 'n'):
+            if (row[5] == 'w'):
                 node_id += 1
                 temp_child['id'] = node_id
                 temp_child['name'] = row[2]
@@ -459,7 +459,7 @@ def get_loc_want_children(node_id, parent_id):
         for row in csv_reader:
 
             temp_child = {}
-            if (row[7] == 'n'):
+            if (row[7] == 'w'):
                 node_id += 1
                 temp_child['id'] = node_id
                 temp_child['name'] = row[2]
@@ -476,7 +476,7 @@ def get_mic_want_children(node_id, parent_id):
         for row in csv_reader:
 
             temp_child = {}
-            if (row[8] == 'n'):
+            if (row[8] == 'w'):
                 node_id += 1
                 temp_child['id'] = node_id
                 temp_child['name'] = row[2]
@@ -493,7 +493,7 @@ def get_sms_want_children(node_id, parent_id):
         for row in csv_reader:
 
             temp_child = {}
-            if (row[9] == 'n'):
+            if (row[9] == 'w'):
                 node_id += 1
                 temp_child['id'] = node_id
                 temp_child['name'] = row[2]
@@ -510,7 +510,7 @@ def get_sto_want_children(node_id, parent_id):
         for row in csv_reader:
 
             temp_child = {}
-            if (row[10] == 'n'):
+            if (row[10] == 'w'):
                 node_id += 1
                 temp_child['id'] = node_id
                 temp_child['name'] = row[2]
@@ -527,7 +527,7 @@ def get_pho_want_children(node_id, parent_id):
         for row in csv_reader:
 
             temp_child = {}
-            if (row[11] == 'n'):
+            if (row[11] == 'w'):
                 node_id += 1
                 temp_child['id'] = node_id
                 temp_child['name'] = row[2]
@@ -547,7 +547,7 @@ def get_cal_no_children(node_id, parent_id):
         for row in csv_reader:
 
             temp_child = {}
-            if (row[4] == 'n'):
+            if (row[4] == 'e'):
                 node_id += 1
                 temp_child['id'] = node_id
                 temp_child['name'] = row[2]
@@ -564,7 +564,7 @@ def get_cam_no_children(node_id, parent_id):
         for row in csv_reader:
 
             temp_child = {}
-            if (row[5] == 'n'):
+            if (row[5] == 'e'):
                 node_id += 1
                 temp_child['id'] = node_id
                 temp_child['name'] = row[2]
@@ -581,7 +581,7 @@ def get_con_no_children(node_id, parent_id):
         for row in csv_reader:
 
             temp_child = {}
-            if (row[6] == 'n'):
+            if (row[6] == 'e'):
                 node_id += 1
                 temp_child['id'] = node_id
                 temp_child['name'] = row[2]
@@ -598,7 +598,7 @@ def get_loc_no_children(node_id, parent_id):
         for row in csv_reader:
 
             temp_child = {}
-            if (row[7] == 'n'):
+            if (row[7] == 'e'):
                 node_id += 1
                 temp_child['id'] = node_id
                 temp_child['name'] = row[2]
@@ -615,7 +615,7 @@ def get_mic_no_children(node_id, parent_id):
         for row in csv_reader:
 
             temp_child = {}
-            if (row[8] == 'n'):
+            if (row[8] == 'e'):
                 node_id += 1
                 temp_child['id'] = node_id
                 temp_child['name'] = row[2]
@@ -632,7 +632,7 @@ def get_sms_no_children(node_id, parent_id):
         for row in csv_reader:
 
             temp_child = {}
-            if (row[9] == 'n'):
+            if (row[9] == 'e'):
                 node_id += 1
                 temp_child['id'] = node_id
                 temp_child['name'] = row[2]
@@ -649,7 +649,7 @@ def get_sto_no_children(node_id, parent_id):
         for row in csv_reader:
 
             temp_child = {}
-            if (row[10] == 'n'):
+            if (row[10] == 'e'):
                 node_id += 1
                 temp_child['id'] = node_id
                 temp_child['name'] = row[2]
@@ -666,7 +666,7 @@ def get_pho_no_children(node_id, parent_id):
         for row in csv_reader:
 
             temp_child = {}
-            if (row[11] == 'n'):
+            if (row[11] == 'e'):
                 node_id += 1
                 temp_child['id'] = node_id
                 temp_child['name'] = row[2]
