@@ -39,7 +39,7 @@ def get_permissions():
         data.append(wanted_permissions)
 
         no_permissions = {}
-        needed_permissions['id'] = 4
+        no_permissions['id'] = 4
         no_permissions['name'] = 'Permissions Not Required'
         no_permissions['parent'] = 1
         data.append(no_permissions)

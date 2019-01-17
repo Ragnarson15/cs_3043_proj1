@@ -4,7 +4,7 @@
         "name": "Permissions"
     }, 
     {
-        "id": 4, 
+        "id": 2, 
         "parent": 1, 
         "name": "Needed Permissions"
     }, 
@@ -14,8 +14,9 @@
         "name": "Wanted Permissions"
     }, 
     {
-        "name": "Permissions Not Required", 
-        "parent": 1
+        "id": 4, 
+        "parent": 1, 
+        "name": "Permissions Not Required"
     }, 
     {
         "id": 5, 
