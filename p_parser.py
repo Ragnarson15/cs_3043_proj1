@@ -442,7 +442,7 @@ def get_con_want_children(node_id, parent_id):
         for row in csv_reader:
 
             temp_child = {}
-            if (row[6] == 'n'):
+            if (row[6] == 'w'):
                 node_id += 1
                 temp_child['id'] = node_id
                 temp_child['name'] = row[2]
