@@ -273,7 +273,7 @@ def get_cal_need_children(node_id, parent_id):
                 node_id += 1
                 temp_child['id'] = node_id
                 temp_child['name'] = row[2]
-                temp_child['parnet'] = parent_id
+                temp_child['parent'] = parent_id
                 data.append(temp_child)
 
     return node_id
@@ -290,7 +290,7 @@ def get_cam_need_children(node_id, parent_id):
                 node_id += 1
                 temp_child['id'] = node_id
                 temp_child['name'] = row[2]
-                temp_child['parnet'] = parent_id
+                temp_child['parent'] = parent_id
                 data.append(temp_child)
 
     return node_id
@@ -307,7 +307,7 @@ def get_con_need_children(node_id, parent_id):
                 node_id += 1
                 temp_child['id'] = node_id
                 temp_child['name'] = row[2]
-                temp_child['parnet'] = parent_id
+                temp_child['parent'] = parent_id
                 data.append(temp_child)
 
     return node_id
@@ -324,7 +324,7 @@ def get_loc_need_children(node_id, parent_id):
                 node_id += 1
                 temp_child['id'] = node_id
                 temp_child['name'] = row[2]
-                temp_child['parnet'] = parent_id
+                temp_child['parent'] = parent_id
                 data.append(temp_child)
 
     return node_id
@@ -341,7 +341,7 @@ def get_mic_need_children(node_id, parent_id):
                 node_id += 1
                 temp_child['id'] = node_id
                 temp_child['name'] = row[2]
-                temp_child['parnet'] = parent_id
+                temp_child['parent'] = parent_id
                 data.append(temp_child)
 
     return node_id
@@ -358,7 +358,7 @@ def get_sms_need_children(node_id, parent_id):
                 node_id += 1
                 temp_child['id'] = node_id
                 temp_child['name'] = row[2]
-                temp_child['parnet'] = parent_id
+                temp_child['parent'] = parent_id
                 data.append(temp_child)
 
     return node_id
@@ -375,7 +375,7 @@ def get_sto_need_children(node_id, parent_id):
                 node_id += 1
                 temp_child['id'] = node_id
                 temp_child['name'] = row[2]
-                temp_child['parnet'] = parent_id
+                temp_child['parent'] = parent_id
                 data.append(temp_child)
 
     return node_id
@@ -392,7 +392,7 @@ def get_pho_need_children(node_id, parent_id):
                 node_id += 1
                 temp_child['id'] = node_id
                 temp_child['name'] = row[2]
-                temp_child['parnet'] = parent_id
+                temp_child['parent'] = parent_id
                 data.append(temp_child)
 
     return node_id
@@ -412,7 +412,7 @@ def get_cal_want_children(node_id, parent_id):
                 node_id += 1
                 temp_child['id'] = node_id
                 temp_child['name'] = row[2]
-                temp_child['parnet'] = parent_id
+                temp_child['parent'] = parent_id
                 data.append(temp_child)
 
     return node_id
@@ -429,7 +429,7 @@ def get_cam_want_children(node_id, parent_id):
                 node_id += 1
                 temp_child['id'] = node_id
                 temp_child['name'] = row[2]
-                temp_child['parnet'] = parent_id
+                temp_child['parent'] = parent_id
                 data.append(temp_child)
 
     return node_id
@@ -446,7 +446,7 @@ def get_con_want_children(node_id, parent_id):
                 node_id += 1
                 temp_child['id'] = node_id
                 temp_child['name'] = row[2]
-                temp_child['parnet'] = parent_id
+                temp_child['parent'] = parent_id
                 data.append(temp_child)
 
     return node_id
@@ -463,7 +463,7 @@ def get_loc_want_children(node_id, parent_id):
                 node_id += 1
                 temp_child['id'] = node_id
                 temp_child['name'] = row[2]
-                temp_child['parnet'] = parent_id
+                temp_child['parent'] = parent_id
                 data.append(temp_child)
 
     return node_id
@@ -480,7 +480,7 @@ def get_mic_want_children(node_id, parent_id):
                 node_id += 1
                 temp_child['id'] = node_id
                 temp_child['name'] = row[2]
-                temp_child['parnet'] = parent_id
+                temp_child['parent'] = parent_id
                 data.append(temp_child)
 
     return node_id
@@ -497,7 +497,7 @@ def get_sms_want_children(node_id, parent_id):
                 node_id += 1
                 temp_child['id'] = node_id
                 temp_child['name'] = row[2]
-                temp_child['parnet'] = parent_id
+                temp_child['parent'] = parent_id
                 data.append(temp_child)
 
     return node_id
@@ -514,7 +514,7 @@ def get_sto_want_children(node_id, parent_id):
                 node_id += 1
                 temp_child['id'] = node_id
                 temp_child['name'] = row[2]
-                temp_child['parnet'] = parent_id
+                temp_child['parent'] = parent_id
                 data.append(temp_child)
 
     return node_id
@@ -531,7 +531,7 @@ def get_pho_want_children(node_id, parent_id):
                 node_id += 1
                 temp_child['id'] = node_id
                 temp_child['name'] = row[2]
-                temp_child['parnet'] = parent_id
+                temp_child['parent'] = parent_id
                 data.append(temp_child)
 
     return node_id
@@ -551,7 +551,7 @@ def get_cal_no_children(node_id, parent_id):
                 node_id += 1
                 temp_child['id'] = node_id
                 temp_child['name'] = row[2]
-                temp_child['parnet'] = parent_id
+                temp_child['parent'] = parent_id
                 data.append(temp_child)
 
     return node_id
@@ -568,7 +568,7 @@ def get_cam_no_children(node_id, parent_id):
                 node_id += 1
                 temp_child['id'] = node_id
                 temp_child['name'] = row[2]
-                temp_child['parnet'] = parent_id
+                temp_child['parent'] = parent_id
                 data.append(temp_child)
 
     return node_id
@@ -585,7 +585,7 @@ def get_con_no_children(node_id, parent_id):
                 node_id += 1
                 temp_child['id'] = node_id
                 temp_child['name'] = row[2]
-                temp_child['parnet'] = parent_id
+                temp_child['parent'] = parent_id
                 data.append(temp_child)
 
     return node_id
@@ -602,7 +602,7 @@ def get_loc_no_children(node_id, parent_id):
                 node_id += 1
                 temp_child['id'] = node_id
                 temp_child['name'] = row[2]
-                temp_child['parnet'] = parent_id
+                temp_child['parent'] = parent_id
                 data.append(temp_child)
 
     return node_id
@@ -619,7 +619,7 @@ def get_mic_no_children(node_id, parent_id):
                 node_id += 1
                 temp_child['id'] = node_id
                 temp_child['name'] = row[2]
-                temp_child['parnet'] = parent_id
+                temp_child['parent'] = parent_id
                 data.append(temp_child)
 
     return node_id
@@ -636,7 +636,7 @@ def get_sms_no_children(node_id, parent_id):
                 node_id += 1
                 temp_child['id'] = node_id
                 temp_child['name'] = row[2]
-                temp_child['parnet'] = parent_id
+                temp_child['parent'] = parent_id
                 data.append(temp_child)
 
     return node_id
@@ -653,7 +653,7 @@ def get_sto_no_children(node_id, parent_id):
                 node_id += 1
                 temp_child['id'] = node_id
                 temp_child['name'] = row[2]
-                temp_child['parnet'] = parent_id
+                temp_child['parent'] = parent_id
                 data.append(temp_child)
 
     return node_id
@@ -670,7 +670,7 @@ def get_pho_no_children(node_id, parent_id):
                 node_id += 1
                 temp_child['id'] = node_id
                 temp_child['name'] = row[2]
-                temp_child['parnet'] = parent_id
+                temp_child['parent'] = parent_id
                 data.append(temp_child)
 
     return node_id

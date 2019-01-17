@@ -139,198 +139,198 @@
         "name": "Phone"
     }, 
     {
-        "parnet": 6, 
         "id": 29, 
+        "parent": 6, 
         "name": "Messenger"
     }, 
     {
-        "parnet": 6, 
         "id": 30, 
+        "parent": 6, 
         "name": "Snapchat"
     }, 
     {
-        "parnet": 7, 
         "id": 31, 
+        "parent": 7, 
         "name": "Messenger"
     }, 
     {
-        "parnet": 8, 
         "id": 32, 
+        "parent": 8, 
         "name": "Google Maps"
     }, 
     {
-        "parnet": 8, 
         "id": 33, 
+        "parent": 8, 
         "name": "Chrome"
     }, 
     {
-        "parnet": 8, 
         "id": 34, 
+        "parent": 8, 
         "name": "Waze"
     }, 
     {
-        "parnet": 9, 
         "id": 35, 
+        "parent": 9, 
         "name": "Messenger"
     }, 
     {
-        "parnet": 9, 
         "id": 36, 
+        "parent": 9, 
         "name": "Piano Tuner"
     }, 
     {
-        "parnet": 9, 
         "id": 37, 
+        "parent": 9, 
         "name": "Snapchat"
     }, 
     {
-        "parnet": 10, 
         "id": 38, 
+        "parent": 10, 
         "name": "Messenger"
     }, 
     {
-        "parnet": 11, 
         "id": 39, 
+        "parent": 11, 
         "name": "Messenger"
     }, 
     {
-        "parnet": 11, 
         "id": 40, 
+        "parent": 11, 
         "name": "Snapchat"
     }, 
     {
-        "parnet": 12, 
         "id": 41, 
+        "parent": 12, 
         "name": "Messenger"
     }, 
     {
-        "parnet": 14, 
         "id": 44, 
+        "parent": 14, 
         "name": "Messenger"
     }, 
     {
-        "parnet": 14, 
         "id": 45, 
+        "parent": 14, 
         "name": "Snapchat"
     }, 
     {
-        "parnet": 15, 
         "id": 47, 
+        "parent": 15, 
         "name": "Messenger"
     }, 
     {
-        "parnet": 16, 
         "id": 49, 
+        "parent": 16, 
         "name": "Google Maps"
     }, 
     {
-        "parnet": 16, 
         "id": 50, 
+        "parent": 16, 
         "name": "Chrome"
     }, 
     {
-        "parnet": 16, 
         "id": 51, 
+        "parent": 16, 
         "name": "Waze"
     }, 
     {
-        "parnet": 17, 
         "id": 53, 
+        "parent": 17, 
         "name": "Messenger"
     }, 
     {
-        "parnet": 17, 
         "id": 54, 
+        "parent": 17, 
         "name": "Piano Tuner"
     }, 
     {
-        "parnet": 17, 
         "id": 55, 
+        "parent": 17, 
         "name": "Snapchat"
     }, 
     {
-        "parnet": 18, 
         "id": 57, 
+        "parent": 18, 
         "name": "Messenger"
     }, 
     {
-        "parnet": 19, 
         "id": 59, 
+        "parent": 19, 
         "name": "Messenger"
     }, 
     {
-        "parnet": 19, 
         "id": 60, 
+        "parent": 19, 
         "name": "Snapchat"
     }, 
     {
-        "parnet": 20, 
         "id": 62, 
+        "parent": 20, 
         "name": "Messenger"
     }, 
     {
-        "parnet": 22, 
         "id": 65, 
+        "parent": 22, 
         "name": "Messenger"
     }, 
     {
-        "parnet": 22, 
         "id": 66, 
+        "parent": 22, 
         "name": "Snapchat"
     }, 
     {
-        "parnet": 23, 
         "id": 68, 
+        "parent": 23, 
         "name": "Messenger"
     }, 
     {
-        "parnet": 24, 
         "id": 70, 
+        "parent": 24, 
         "name": "Google Maps"
     }, 
     {
-        "parnet": 24, 
         "id": 71, 
+        "parent": 24, 
         "name": "Chrome"
     }, 
     {
-        "parnet": 24, 
         "id": 72, 
+        "parent": 24, 
         "name": "Waze"
     }, 
     {
-        "parnet": 25, 
         "id": 74, 
+        "parent": 25, 
         "name": "Messenger"
     }, 
     {
-        "parnet": 25, 
         "id": 75, 
+        "parent": 25, 
         "name": "Piano Tuner"
     }, 
     {
-        "parnet": 25, 
         "id": 76, 
+        "parent": 25, 
         "name": "Snapchat"
     }, 
     {
-        "parnet": 26, 
         "id": 78, 
+        "parent": 26, 
         "name": "Messenger"
     }, 
     {
-        "parnet": 27, 
         "id": 80, 
+        "parent": 27, 
         "name": "Messenger"
     }, 
     {
-        "parnet": 27, 
         "id": 81, 
+        "parent": 27, 
         "name": "Snapchat"
     }, 
     {
-        "parnet": 28, 
         "id": 83, 
+        "parent": 28, 
         "name": "Messenger"
     }
 ]
